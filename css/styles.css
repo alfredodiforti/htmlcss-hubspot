@@ -14,15 +14,84 @@ header {
   clear: both;
 }
 
+/* top header left */
+
 .upheader {
   float: left;
+  border-bottom: 1px solid white;
+  border-color: rgb(55, 73, 89);
 }
 
 .upheader {
-  height: 100px;
+
   width: 100vw;
   background-color: rgb(245, 249, 252);
 }
+
+.contentuphead {
+  width: 70%;
+  margin: auto;
+}
+
+.contentupheadsx {
+  float: left;
+  }
+
+  .contentupheadsx p {
+    display: inline-block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(55, 73, 89);
+  }
+
+  /* top header right */
+
+.boxheaderdx {
+  float: right;
+}
+
+.boxheaderdx .reserch {
+  padding: 30px;
+  color: rgb(71, 163, 186);
+}
+
+.boxheaderdx2 {
+  float: right;
+}
+
+.boxheaderdx2 p {
+  padding: 10px;
+  margin: 20px;
+  border: 1px solid orange;
+  border-color: rgb(238, 126, 98);
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 6px;
+  color: rgb(238, 126, 98);
+  background-color: white;
+
+}
+
+.boxheaderdx3 {
+  float: right;
+}
+
+.boxheaderdx3 p {
+  padding: 10px;
+  margin: 20px;
+  border: 1px solid orange;
+  border-color: rgb(238, 126, 98);
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 6px;
+  color: white;
+  background-color: rgb(238, 126, 98);
+
+}
+
+/* down header */
+
+
 
 .downheader {
   float: left;
