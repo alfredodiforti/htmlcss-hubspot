@@ -143,20 +143,97 @@ line-height: 95px;
   float: left;
 }
 
-.bigheader {
-  height: 900px;
-  width: 100vw;
-  background-color: rgb(253, 245, 240);
+.bigheadersideright {
+  float: right;
 }
 
-.spaceheader {
+.bigheader {
+  width: 100vw;
+  background-color: rgb(253, 245, 240);
+  background-image: url(../img/jumbotron.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  height: 693px;
+}
+
+.bigheadertop {
+  width: 70%;
+  margin: auto;
+}
+
+.bigheadertop {
+height: 611px;
+}
+
+.bigheadersideleft {
   float: left;
 }
 
+.bigheadersideleft {
+margin-top: 70px;
+width: 555px;
+}
+
+.bigheadersideleft h1 {
+font-size: 45px;
+font-family: 'Montserrat', sans-serif;
+color: rgb(55, 73, 89);
+}
+
+.bigheadersideleft h4 {
+  margin-top: 30px;
+font-size: 15px;
+font-family: 'Montserrat', sans-serif;
+font-weight: 400;
+color: rgb(55, 73, 89);
+line-height: 30px;
+}
+
+.bottoncopy {
+  float: left;
+}
+
+.bottoncopy {
+  margin-top: 30px;
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-color: rgb(238, 126, 98);
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 6px;
+  color: white;
+  background-color: rgb(238, 126, 98);
+}
+
+.minifoo {
+  float: left;
+}
+
+.minifoo {
+  width: 100%;
+  padding-top: 40px;
+}
+
+.minifoo h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: rgb(55, 73, 89);
+  font-size: 13px;
+}
+
+
+
 .spaceheader {
-  height: 100px;
+float: left;
+}
+
+.spaceheader {
+  height: 82px;
   width: 100vw;
   background-color: rgb(187, 233, 228);
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+  border-color: rgb(43, 56, 81);
 }
 
 /* main */
