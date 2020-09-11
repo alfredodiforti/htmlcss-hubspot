@@ -80,6 +80,7 @@ header {
 .boxheaderdx3 p {
   padding: 10px;
   margin: 20px;
+  margin-right: 0px;
   border: 1px solid orange;
   border-color: rgb(238, 126, 98);
   font-family: 'Montserrat', sans-serif;
@@ -97,11 +98,46 @@ header {
   float: left;
 }
 
+.contentdownheader {
+  width: 70%;
+  margin: auto;
+}
+
+/* contentdownheadersx */
+
 .downheader {
-  height: 100px;
   width: 100vw;
   background-color: white;
 }
+
+.contentdownheadersx {
+  float: left;
+}
+
+.contentdownheadersx img {
+padding-top: 30px;
+padding-bottom: 30px;
+}
+
+/* contentdownheaderdx */
+
+.contentdownheaderdx {
+  float: right;
+}
+
+
+.list li {
+display: inline-block;
+margin-left: 40px;
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+color: rgb(55, 73, 89);
+line-height: 95px;
+}
+
+
+
+/* bigheader */
 
 .bigheader {
   float: left;
