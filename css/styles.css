@@ -247,7 +247,7 @@ main {
 /* firstsection */
 
 .firstsection {
-  float:
+  float: left;
   }
 
   .firstsection {
@@ -255,6 +255,62 @@ main {
     width: 100vw;
     background-color: rgb(245, 249, 252);
   }
+
+  .firstbox {
+    width: 70%;
+    margin: auto;
+    position: relative;
+  }
+
+  .firstslide {
+    width: 100%;
+    height: 235px;
+  }
+
+  .firstslide img {
+  width: 20%;
+  height: auto;
+  position: absolute;
+  left: 40%;
+  margin-top: 50px;
+  }
+
+  .textfstsld {
+    width: 100%;
+    text-align: center;
+
+  }
+
+  .textfstsld h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: rgb(55, 73, 89);
+  }
+
+  .textfstsld h4 {
+    margin-top: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: rgb(55, 73, 89);
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: center;
+    line-height: 25px;
+  }
+
+  .primowhitebox {
+    margin-top: 70px;
+    width: 100%;
+    height: 342px;
+    background-color: white;
+    border: 3px solid lightgrey;
+    border-radius: 8px;
+    border-color: rgb(242, 244, 247);
+  }
+
+
 
   /* secondosection */
 
