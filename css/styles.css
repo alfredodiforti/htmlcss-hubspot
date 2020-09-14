@@ -255,6 +255,8 @@ float: left;
     width: 70%;
     margin: auto;
     position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   .firstslide {
@@ -520,11 +522,92 @@ bottom: 11px;
   }
 
   .secondsection {
-    height: 900px;
     width: 100vw;
     background: rgb(73,165,184);
     background: linear-gradient(90deg, rgba(73,165,184,1) 0%, rgba(81,181,169,1) 100%, rgba(9,9,121,1) 100%, rgba(0,212,255,1) 100%);
+    padding-bottom: 120px;
     }
+
+    .secondsection h2 {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 33px;
+      color: white;
+      padding-top: 40px;
+      text-align: center;
+      margin-left: 2%;
+      margin-right: 2%;
+    }
+
+    .secondsection h3 {
+      margin-top: 40px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      font-size: 17px;
+      color: white;
+      text-align: center;
+      line-height: 25px;
+      margin-bottom: 60px;
+    }
+
+    /* costruzione dei riquadri */
+
+    .upbox {
+      float: left;
+      width: 25%;
+      height: 168px;
+      border-bottom: 1px solid white;
+      border-right: 1px solid white;
+      text-align: center;
+    }
+
+    .upboxlast {
+      float: left;
+      width: 25%;
+      height: 168px;
+      border-bottom: 1px solid white;
+      text-align: center;
+      }
+
+    .downbox {
+      float: left;
+      width: 25%;
+      height: 168px;
+      border-right: 1px solid white;
+      text-align: center;
+    }
+
+    .downboxlast {
+      float: left;
+      width: 25%;
+      height: 168px;
+      text-align: center;
+    }
+
+    .imgbox {
+      max-height: 100px;
+      padding-top: 25px;
+    }
+
+    .valor {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 40px;
+      color: white;
+      padding-top: 15px;
+        }
+
+    .minitext {
+      margin-top: 10px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 300;
+      font-size: 13px;
+      color: white;
+      margin-bottom: 60px;
+    }
+
+
+
 
     /* terzasezione */
 
