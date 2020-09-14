@@ -238,11 +238,6 @@ float: left;
 
 /* main */
 
-main {
-  content: '';
-  display: table;
-  clear: both;
-}
 
 /* firstsection */
 
@@ -251,7 +246,7 @@ main {
   }
 
   .firstsection {
-    height: 2000px;
+
     width: 100vw;
     background-color: rgb(245, 249, 252);
   }
@@ -394,6 +389,127 @@ bottom: 11px;
 .dxwhitebox i {
   color: rgb(238, 126, 98);
   margin-right: 10px;
+}
+
+.secondowhitebox li {
+  float: left;
+  width: 356px;
+  height: 656px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: inline-block;
+}
+
+.sectionwhiteuno {
+  float: left;
+  height: 657px;
+  width: 350px;
+  background-color: white;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 64px;
+  border-radius: 5px;
+  border: 3px solid lightgrey;
+  border-color: rgb(242, 244, 247);
+  text-align: center;
+}
+
+/* caratteristiche base colonne */
+
+.sottoimgcolonne {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  color: rgb(55, 73, 89);
+
+}
+
+.imgcolonne {
+ max-height: 140px;
+ padding-top: 20px;
+ padding-bottom: 20px;
+ margin-bottom: 10px;
+
+}
+
+.textpcolonne {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: rgb(55, 73, 89);
+  line-height: 25px;
+  margin: 40px;
+}
+
+.hrcolonne {
+  margin-left: 10%;
+  margin-right: 10%;
+  color: #899397;
+  margin-bottom: 20px;
+}
+
+.textposthr {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  color: rgb(55, 73, 89);
+  padding-top: 20px;
+}
+
+.listcolonne {
+  margin-top: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  color: rgb(55, 73, 89);
+  list-style: none;
+  text-align: left;
+  margin-left: 10%;
+  line-height: 20px;
+  padding-bottom: 30px;
+}
+.listcolonne i {
+  color: rgb(238, 126, 98);
+  margin-right: 10px;
+}
+
+.sectionwhitedue {
+  float: left;
+  height: 657px;
+  width: 350px;
+  background-color: white;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  border: 3px solid lightgrey;
+  border-color: rgb(242, 244, 247);
+  text-align: center;
+}
+
+.sectionwhitetre {
+  float: right;
+  height: 657px;
+  width: 350px;
+  background-color: white;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  border: 3px solid lightgrey;
+  border-color: rgb(242, 244, 247);
+  text-align: center;
+}
+
+.botton {
+  margin-top: 30px;
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-color: rgb(238, 126, 98);
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 6px;
+  color: white;
+  background-color: rgb(238, 126, 98);
+  display: inline-block;
 }
 
 
