@@ -616,10 +616,98 @@ bottom: 11px;
     }
 
     .thirdsection {
-      height: 900px;
       width: 100vw;
       background-color: white;
     }
+
+    .boxsinistra {
+      width: 40%;
+      float: left;
+      margin-top: 25px;
+      margin-bottom: 25px;
+      text-align: center;
+    }
+
+    .boxsinistra h2 {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 50px;
+      color: rgb(55, 73, 89);
+      text-align: left;
+      padding-left: 100px;
+    }
+
+    .boxsinistra h4 {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      font-size: 15px;
+      color: rgb(55, 73, 89);
+      margin-top: 30px;
+      padding-right: 170px;
+      line-height: 25px;
+      text-align: left;
+      padding-left: 100px;
+    }
+
+    #bottomtext {
+      padding-left: 0px;
+      margin-top: 90px;
+      font-size: 30px;
+      text-align: left;
+    }
+
+    #minitexttrd {
+      padding: 0px;
+      text-align: left;
+    }
+
+    .fixed {
+      text-align: left;
+      padding-bottom: 30px;
+    }
+
+    .boxdestra {
+      float: left;
+      width: 60%;
+      padding-right: 100px;
+      margin-top: 25px;
+      margin-bottom: 25px;
+     }
+
+     .minibox {
+       float: left;
+       width: 25%;
+       height: 60px;
+       text-align: center;
+       padding-top: 15px;
+
+
+     }
+
+     .minibox img {
+       max-width: 120px;
+       max-height: 30px;
+     }
+
+     #last {
+       position: relative;
+       bottom: 7px;
+       max-height: 40px;
+     }
+
+     #woman {
+       float: right;
+       max-width: 290px;
+       margin-top: 80px;
+       position: relative;
+       left: 100px;
+     }
+
+
+
+
+
+
 
     /* footer */
 
